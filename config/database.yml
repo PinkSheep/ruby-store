@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: ruby-store_development
+  database: ruby-store-dev
   pool: 5
-  username: ruby-store
+  username: rails
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -46,15 +46,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: ruby-store_test
+  database: ruby-store-test
   pool: 5
-  username: ruby-store
+  username: rails
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: ruby-store_production
+  database: ruby-store-production
   pool: 5
-  username: ruby-store
+  username: rails
   password:
