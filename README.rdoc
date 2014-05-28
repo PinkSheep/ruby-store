@@ -3,3 +3,5 @@
 Building a simple store application using Ruby on Rail.
 
 This application is build as a way to learn Rails in the Web2 module @ ZHAW
+
+The application ist hosted at heroku.
